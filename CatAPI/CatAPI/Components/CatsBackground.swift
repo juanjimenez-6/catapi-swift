@@ -30,6 +30,5 @@ struct CatsBackground: View {
                 AnyView(content())
             }
         }
-        //.ignoresSafeArea()
     }
 }

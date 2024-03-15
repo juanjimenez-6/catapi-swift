@@ -16,7 +16,6 @@ struct CatFavoriteListView: View {
                 if viewModel.favorites.isEmpty {
                     VStack(alignment:.center) {
                         Text("No Favorites")
-                            //.frame(maxWidth: .infinity)
                     }
                     .padding([.leading, .trailing], 10)
                     .frame(height: 30)

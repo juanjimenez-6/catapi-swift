@@ -26,7 +26,6 @@ class NetworkService {
                     
         URLSession.shared.dataTask(with: request) { data, response, error in
             print(String(data: data!, encoding: .utf8)!)
-            //print(response)
             DispatchQueue.main.async {
                 guard let data = data, error == nil else {
                     completion(.failure(error!))

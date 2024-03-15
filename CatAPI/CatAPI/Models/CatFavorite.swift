@@ -11,7 +11,7 @@ struct CatFavorite: Identifiable, Decodable {
     let imageId: String
     let subId: String
     let createdAt: String
-    let image: CatImage? // Keep this optional in CatFavorite
+    let image: CatImage? 
 
     enum CodingKeys: String, CodingKey {
         case id, userId = "user_id", imageId = "image_id", subId = "sub_id", createdAt = "created_at", image
