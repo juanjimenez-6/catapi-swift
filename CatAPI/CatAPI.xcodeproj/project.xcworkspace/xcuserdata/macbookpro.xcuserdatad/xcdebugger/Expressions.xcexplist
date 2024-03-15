@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "RandomCatViewModel.createFavorite(forImageId:subId:):RandomCatViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "NetworkService.shared">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
