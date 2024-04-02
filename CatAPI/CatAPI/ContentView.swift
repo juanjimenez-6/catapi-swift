@@ -29,14 +29,6 @@ struct ContentView: View {
     }
 }
 
-public final class TransparentHostingController<Content: View>: UIHostingController<Content> {
-    public override func viewDidLoad() {
-        super.viewDidLoad()
-        view.isOpaque = false
-        view.backgroundColor = .clear
-    }
-}
-
 #Preview {
     ContentView()
 }

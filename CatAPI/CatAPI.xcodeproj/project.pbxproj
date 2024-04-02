@@ -31,7 +31,6 @@
 		52A6A89B2BA0FC20004CFB42 /* CatFavoriteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6A89A2BA0FC20004CFB42 /* CatFavoriteResponse.swift */; };
 		52A6A89D2BA1F855004CFB42 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6A89C2BA1F855004CFB42 /* HTTPMethod.swift */; };
 		52A6A89F2BA1F9C6004CFB42 /* EmptyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6A89E2BA1F9C6004CFB42 /* EmptyResponse.swift */; };
-		52A6A8A22BA207E2004CFB42 /* BackgroundHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6A8A12BA207E2004CFB42 /* BackgroundHelper.swift */; };
 		52A6A8A42BA20FAE004CFB42 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6A8A32BA20FAE004CFB42 /* ActionButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -80,7 +79,6 @@
 		52A6A89A2BA0FC20004CFB42 /* CatFavoriteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFavoriteResponse.swift; sourceTree = "<group>"; };
 		52A6A89C2BA1F855004CFB42 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		52A6A89E2BA1F9C6004CFB42 /* EmptyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyResponse.swift; sourceTree = "<group>"; };
-		52A6A8A12BA207E2004CFB42 /* BackgroundHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundHelper.swift; sourceTree = "<group>"; };
 		52A6A8A32BA20FAE004CFB42 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -234,7 +232,6 @@
 		52A6A8A02BA207D5004CFB42 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				52A6A8A12BA207E2004CFB42 /* BackgroundHelper.swift */,
 				52A6A8A32BA20FAE004CFB42 /* ActionButton.swift */,
 			);
 			path = Helpers;
@@ -375,7 +372,6 @@
 				52A6A8972BA0E7B5004CFB42 /* MockNetworkService.swift in Sources */,
 				52A6A8952BA0E573004CFB42 /* CatImageView.swift in Sources */,
 				52A6A88C2BA0DF19004CFB42 /* CatAPI.swift in Sources */,
-				52A6A8A22BA207E2004CFB42 /* BackgroundHelper.swift in Sources */,
 				520E1BD62BA26F1E00489EEB /* CatFavoriteListView.swift in Sources */,
 				52A6A8A42BA20FAE004CFB42 /* ActionButton.swift in Sources */,
 				520E1BD82BA270D500489EEB /* CatFavorite.swift in Sources */,

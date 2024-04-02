@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// View that loads the existing favorites, and allows the user to see them again in a separate view, or remove them from the favorite list 
 struct CatFavoriteListView: View {
     @ObservedObject var viewModel = CatFavoriteListViewModel()
     

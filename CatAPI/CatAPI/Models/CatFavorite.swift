@@ -5,6 +5,9 @@
 //  Created by J on 13/3/24.
 //
 
+/// Favorite objects returned from the API after they were added via the POST method
+/// Described here: https://documenter.getpostman.com/view/5578104/RWgqUxxh#26d3314e-de60-4249-ba8c-7dfa3fe9845b
+/// This class contains a custom decoder for the different scenarios where one or more properties can be null
 struct CatFavorite: Identifiable, Decodable {
     let id: Int32
     let userId: String

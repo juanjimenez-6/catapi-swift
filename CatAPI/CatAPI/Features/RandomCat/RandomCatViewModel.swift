@@ -8,6 +8,7 @@
 import Foundation
 import Combine
 
+/// ViewModel to interact with the API in order to get random cats, and add or delete from favorites
 class RandomCatViewModel: ObservableObject {
     @Published var catImage: CatImage?
     @Published var isLoading: Bool = false

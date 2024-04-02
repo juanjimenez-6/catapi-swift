@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// Reusable component used as a wrapper for any other view to have a custom background 
 struct CatsBackground: View {
     var content: (() -> any View)?
     

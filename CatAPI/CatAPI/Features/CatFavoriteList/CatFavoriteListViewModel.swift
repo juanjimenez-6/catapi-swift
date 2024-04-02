@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// ViewModel to interact with the API in order to get the list of favorite cats, and delete from favorites
 class CatFavoriteListViewModel: ObservableObject {
     @Published var favorites:  [CatFavorite] = []
     @Published var isLoading: Bool = false

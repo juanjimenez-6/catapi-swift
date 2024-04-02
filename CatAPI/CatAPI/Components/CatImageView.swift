@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// This is a reusable component that lazily loads a remote image from an external url
 struct CatImageView: View {
     let url: String
     

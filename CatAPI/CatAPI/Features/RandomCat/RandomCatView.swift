@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// Main view of the app, loads random cats and gives the user the ability to mark them as Favorites
 struct RandomCatView: View {
     @ObservedObject var viewModel = RandomCatViewModel()
     let userId = "juanjimenez001"
